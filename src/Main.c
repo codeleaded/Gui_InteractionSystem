@@ -29,11 +29,12 @@ void Setup(AlxWindow* w){
 		InteractionOption_Make(
 			TheaterOption_New(0,"David",NULL),
 			MenuSystem_Make(
+				AlxFont_Make(ALXFONT_HIGH,16,32),
 				"./assets/Pointer.png",
 				"./assets/Fold.png",
 				"./assets/FoldUp.png",
 				"./assets/FoldDown.png",
-				"./assets/Rainbow_Atlas.png",64,0.5f,
+				"./assets/Rainbow_Atlas.png",WHITE,64,0.5f,0.0f,0.0f,
 				MenuOption_Make(0,"NONE",NULL,NULL,NULL,3,2),
 				(Branch*[]){
 					Branch_New((MenuOption[]){ MenuOption_New(0,"Yes",NULL,NULL,NULL) },sizeof(MenuOption)),
@@ -49,11 +50,12 @@ void Setup(AlxWindow* w){
 		InteractionOption_Make(
 			TheaterOption_New(0,"David",NULL),
 			MenuSystem_Make(
+				AlxFont_Make(ALXFONT_HIGH,16,32),
 				"./assets/Pointer.png",
 				"./assets/Fold.png",
 				"./assets/FoldUp.png",
 				"./assets/FoldDown.png",
-				"./assets/Rainbow_Atlas.png",64,0.5f,
+				"./assets/Rainbow_Atlas.png",WHITE,64,0.5f,0.0f,0.0f,
 				MenuOption_Make(0,"NONE",NULL,NULL,NULL,3,2),
 				(Branch*[]){
 					Branch_New((MenuOption[]){ MenuOption_New(0,"Yes",NULL,NULL,NULL) },sizeof(MenuOption)),
@@ -69,11 +71,12 @@ void Setup(AlxWindow* w){
 		InteractionOption_Make(
 			TheaterOption_New(0,"David",NULL),
 			MenuSystem_Make(
+				AlxFont_Make(ALXFONT_HIGH,16,32),
 				"./assets/Pointer.png",
 				"./assets/Fold.png",
 				"./assets/FoldUp.png",
 				"./assets/FoldDown.png",
-				"./assets/Rainbow_Atlas.png",64,0.5f,
+				"./assets/Rainbow_Atlas.png",WHITE,64,0.5f,0.0f,0.0f,
 				MenuOption_New(0,NULL,NULL,NULL,NULL),
 				(Branch*[]){
 					NULL
@@ -87,11 +90,12 @@ void Setup(AlxWindow* w){
 		InteractionOption_Make(
 			TheaterOption_New(0,"David",NULL),
 			MenuSystem_Make(
+				AlxFont_Make(ALXFONT_HIGH,16,32),
 				"./assets/Pointer.png",
 				"./assets/Fold.png",
 				"./assets/FoldUp.png",
 				"./assets/FoldDown.png",
-				"./assets/Rainbow_Atlas.png",64,0.5f,
+				"./assets/Rainbow_Atlas.png",WHITE,64,0.5f,0.0f,0.0f,
 				MenuOption_New(0,NULL,NULL,NULL,NULL),
 				(Branch*[]){
 					NULL
@@ -106,11 +110,12 @@ void Setup(AlxWindow* w){
 		InteractionOption_Make(
 			TheaterOption_New(0,"David",NULL),
 			MenuSystem_Make(
+				AlxFont_Make(ALXFONT_HIGH,16,32),
 				"./assets/Pointer.png",
 				"./assets/Fold.png",
 				"./assets/FoldUp.png",
 				"./assets/FoldDown.png",
-				"./assets/Rainbow_Atlas.png",64,0.5f,
+				"./assets/Rainbow_Atlas.png",WHITE,64,0.5f,0.0f,0.0f,
 				MenuOption_Make(0,"NONE",NULL,NULL,NULL,3,2),
 				(Branch*[]){
 					Branch_New((MenuOption[]){ MenuOption_New(0,"Yes",NULL,NULL,NULL) },sizeof(MenuOption)),
@@ -126,11 +131,12 @@ void Setup(AlxWindow* w){
 		InteractionOption_Make(
 			TheaterOption_New(0,"David",NULL),
 			MenuSystem_Make(
+				AlxFont_Make(ALXFONT_HIGH,16,32),
 				"./assets/Pointer.png",
 				"./assets/Fold.png",
 				"./assets/FoldUp.png",
 				"./assets/FoldDown.png",
-				"./assets/Rainbow_Atlas.png",64,0.5f,
+				"./assets/Rainbow_Atlas.png",WHITE,64,0.5f,0.0f,0.0f,
 				MenuOption_New(0,NULL,NULL,NULL,NULL),
 				(Branch*[]){
 					NULL
@@ -144,11 +150,12 @@ void Setup(AlxWindow* w){
 		InteractionOption_Make(
 			TheaterOption_New(0,"David",NULL),
 			MenuSystem_Make(
+				AlxFont_Make(ALXFONT_HIGH,16,32),
 				"./assets/Pointer.png",
 				"./assets/Fold.png",
 				"./assets/FoldUp.png",
 				"./assets/FoldDown.png",
-				"./assets/Rainbow_Atlas.png",64,0.5f,
+				"./assets/Rainbow_Atlas.png",WHITE,64,0.5f,0.0f,0.0f,
 				MenuOption_New(0,NULL,NULL,NULL,NULL),
 				(Branch*[]){
 					NULL
